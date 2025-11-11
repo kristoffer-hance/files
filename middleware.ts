@@ -31,18 +31,3 @@ export const config = {
     '/((?!_next/static|_next/image|favicon.ico).*)',
   ],
 };
-```
-
-### Your File Structure Will Be:
-```
-your-project/
-├── src/
-│   └── app/
-│       ├── favicon.ico
-│       ├── globals.css
-│       ├── layout.tsx
-│       └── page.tsx
-├── middleware.ts          ← CREATE THIS FILE HERE
-├── next.config.ts
-├── package.json
-└── ... other files
